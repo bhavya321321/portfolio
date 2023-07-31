@@ -1,0 +1,53 @@
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #0d6efd !important;
+}
+
+.container {
+  width: 1000px !important;
+}
+
+.contact-form {
+  margin-top: 40px;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+.bg-primary {
+  background-color: rgb(10, 10, 193) !important;
+}
+.col-md-6 {
+  font-family: "Times New Roman", Times, serif;
+}
+.col-12 {
+  font-family: "Times New Roman", Times, serif;
+}
+.form-control {
+  height: 30px;
+  background-color: hsl(0, 0%, 100%);
+  color: rgb(0, 0, 0, 0.8);
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.61);
+}
+.contactform .form-control {
+  border: black;
+  border-bottom: 1px solid rgb(10, 1, 1);
+  padding: 0;
+}
+
+.form-control:focus,
+.form-control:active {
+  border-top: 30px;
+  border-color: rgb(4, 4, 18) !important;
+}
+.btn .btn-primary {
+  background: rgb(10, 111, 193) !important;
+  border-color: rgb(10, 10, 193) !important;
+}

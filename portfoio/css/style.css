@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Times New Roman", Times, serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 7%;
+  background-color: #0769fb !important;
+  color: white;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+.logo {
+  font-size: 3.5rem;
+  color: var(--main-color);
+  font-weight: 600;
+  margin-right: auto;
+  cursor: default;
+}
+.logo:hover {
+  color: black;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 1.7rem;
+  color: white;
+  font-weight: 500;
+  margin-right: 3.5rem;
+}
+.navbar a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.navbar a.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 0.2rem;
+  background: var(--white-color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 7% 2rem;
+  margin-left: 100px;
+}
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.homecontent {
+  max-width: 44rem;
+  margin: 20px;
+}
+.homecontent h2 {
+  font-size: 7.2rem;
+  font-weight: 700;
+  line-height: 0.3;
+  font-family: "Times New Roman", Times, serif;
+}
+.homecontent h2:hover {
+  color: rgb(255, 12, 93);
+}
+.homecontent h1 {
+  font-size: 8.2rem;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+}
+.homecontent h1:hover {
+  color: rgba(124, 4, 237, 0.91);
+}
+
+.homecontent p {
+  font-size: 1.7rem;
+  color: black;
+}
+
+.homecontent-hover h1 {
+  color: #0769fb;
+}
+
+.homecontent .socialmedia a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  border: 0.2rem solid(--main-color);
+  border-radius: 50%;
+  box-shadow: 0 0.2rem 0.6rem var(--shadow-color);
+  font-size: 2rem;
+  color: rgb(3, 3, 60);
+  margin: 2.5rem 1.5rem 3rem 0;
+  transition: 0.5s ease;
+}
+
+.socialmedia a:hover {
+  color: white;
+  background: #0769fb !important;
+}
+.button-about {
+  display: inline-block;
+  padding: 1.2rem 2.8rem;
+  background: #0769fb !important;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 0.2rem 0.6rem var(--main-color);
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  border: 0.2rem solid transparent;
+  transition: 0.5s ease;
+}
+.button-about:hover {
+  box-shadow: 5px 5px 5px rgb(32, 32, 87);
+}
+.abs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.active {
+  text-decoration: underline;
+}
